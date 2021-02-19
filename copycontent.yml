@@ -1,7 +1,5 @@
 ---
 - hosts: all
-  become: yes 
-  remote_user: ec2-user
   tasks:
     - name: Content Update
       copy:
